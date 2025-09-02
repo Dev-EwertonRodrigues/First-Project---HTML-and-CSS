@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box; /* border-box = comprime tudo dentro da escala que você colocou / content-box = vai somando tudo a caixa */
+}
+
+
+.box { 
+    width: 100px;
+    height: 100px;
+    background: rgb(245, 221, 5);
+    padding: 20px; /* uma "margem intena" de dentro pra fora pode ser usado com valores diferente para direita, esquerda, cima ou baixo basta colocar top, botton, left ou right*/
+    border: 10px solid #5801fa;
+}

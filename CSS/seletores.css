@@ -1,0 +1,45 @@
+/* Utilizando IDS: Utilizamos "#"  */
+
+#titulo {
+    color: blue;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+#paragrafo {
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#button01 {
+    color: darkblue;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+#button02 {
+    color: black;
+    background-color: goldenrod;
+    font-size: 20px;
+}
+
+/* Utilizando Classes = Utilizamos "." */
+
+.texto{
+    color: navy;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.botao{
+    color: orange;
+    background-color: dimgray;
+    font-size: 20px;
+}
+
+*{ 
+    background-color: silver;
+}

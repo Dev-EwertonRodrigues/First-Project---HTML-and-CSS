@@ -1,0 +1,49 @@
+/*-- 
+POSITION
+
+position: static (padrão default) - Não aceita valores no top, bottom, right e left.
+position: fixed - fixa o elemento na tela
+position: sticky - age como um adesivo, fixa o elemento só onde eu determinar
+position: relative - posição relativa a posição inicial dele
+position: absolute - posição absoluta(fixa) a algum elemento ou a página
+                    - SE não tiver pai / pai for static -> Posiciona referente a página
+                    - SE o pai NÃO for static -> Posiciona referente ao pai
+
+Propriedades usadas:
+    - top
+    - bottom
+    - left
+    - right
+
+--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+
+}
+
+.div-pai{
+    background-color: yellow;
+    height: 350px;
+    width: 350px;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+    margin: 20px;
+   
+}
+
+.div-filho{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+}
+
+.exemplo{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}

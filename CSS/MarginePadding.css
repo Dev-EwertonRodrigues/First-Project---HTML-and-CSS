@@ -1,0 +1,17 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background: gray;
+    margin: 30px; /* margem externa - pode ser usado com valores diferente para direita, esquerda, cima ou baixo basta colocar top, botton, left ou right */
+    margin: 10px 30px 20px 40px; /* top, right, bottom, left uma maneira mais simples para aplicar*/
+    margin: 10px 30px 20px; /* com tres números fica O 1º para top, o 2º número para right e left , e o 3º para bottom*/
+    margin: 10px 30px; /* com dois números fica O 1º para top e bottom, o 2º número para right e left*/
+}
+
+.box02{
+    width: 50px;
+    height: 50px;
+    background: rgb(245, 221, 5);
+    padding: 50px; /* uma "margem intena" de dentro pra fora pode ser usado com valores diferente para direita, esquerda, cima ou baixo basta colocar top, botton, left ou right*/
+    
+}

@@ -1,0 +1,15 @@
+    h1 {
+        color: coral;
+    }
+
+    p { 
+        color: darkred;
+        font-size: 25px;
+    }
+
+    button {
+        color: rgb(47, 46, 44);
+        border-color: indigo;
+        background-color: darkgrey;
+        font-size: 30px;
+    }

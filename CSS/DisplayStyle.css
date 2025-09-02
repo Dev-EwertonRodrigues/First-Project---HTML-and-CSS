@@ -1,0 +1,67 @@
+.texto{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: dashed;
+    border: 1px solid;
+    display: block;
+
+}
+
+.box{
+    background: #00FFFF;
+    height: 100px;
+    width: 100px;
+    display: block;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #000000 ;
+    margin: 10px;
+
+}
+
+.box02{
+    background: #FF5502;
+
+}
+
+.box03{
+    background: #00FF62;
+
+}
+
+
+/*--
+
+DISPLAY
+
+- BLOCK
+- INLINE
+- INLINE-BLOCK
+
+- GRID
+- FLEX
+
+-BLOCK
+Vem como padrão na div, section, p, h1, ul e etc...
+
+- Ocupa 100% da largura do elemento pai
+- Sempre ocupa toda sua linha
+- Altura definida de acordo com o conteúdo
+- Podemos definir o height e width
+- Podemos definir valores de margens
+
+INLINE
+
+- Vem como padrão no a, span, b, i etc...
+
+- Elementos ficam em linha
+- Não permite alterar height e width
+- Não podemos definir valores de margem top e bottom
+- Ganha comportamento de uma palavra(vai se alinhar ao que você escrever dentro do bloco)
+
+INLINE-BLOCK
+
+- Elemento em linha, porém com carcterísticas do display block
+- Altura e largura podem ser alterados
+
+--*/

@@ -1,0 +1,45 @@
+/*-- 
+PSEUDO ELEMENTOS
+
+input::placeholder {} = troca a frase dentro da caixa de texto
+::first-letter = estiliza a primeira letra de um texto
+::first-line = estiliza a primeira linha de um texto
+::after = content (coloca algo depois do elemento escolhido ex: emoticons, simbolos e etc)
+::before = content (coloca algo antes do elemento escolhido ex: emoticons, simbolos e etc)
+
+
+-- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+h1{
+    color: brown;
+}
+h1:first-letter {
+    color: blue;
+}
+
+p{
+    color: yellow;
+    font-size: 40px;
+}
+
+p:after {
+    content: "⬅️" ;
+}
+
+input{
+    size: 5px;
+    border: solid;
+    border-color: aqua;
+
+}
+
+input::placeholder {
+    color: aqua;
+}
